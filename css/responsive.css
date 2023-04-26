@@ -40,6 +40,14 @@
 }
 
 @media (max-width: 991px) {
+
+    /* new add css */
+    .urgentCause {
+        width: 344px;
+        height: 250px;
+    }
+
+    
     .defaultmainmenu-menu li .indicator {
         display: block;
     }
