@@ -58,3 +58,38 @@ width: 500px;
 }
 
 
+
+
+@media screen and (max-width: 480px) {
+
+    #galleryContainer{
+        color: white;
+        position: absolute;
+        left: 10%;
+        bottom: 0%;
+    }
+    #galleryContainer h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+    }
+    #galleryContainer p{
+        font-size: 15px;
+        color: white;
+    }
+    #images-container a{
+    
+        /* border: 2px solid red; */
+        height:300px;
+        width: 300px;
+        margin: 20px;
+        }
+    #images-container a img{
+        margin-top: 30px;
+        border-radius: 10px;
+        height:300px;
+        width: 300px;
+        }
+
+       
+}
