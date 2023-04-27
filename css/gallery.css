@@ -1,0 +1,60 @@
+#galleryImg{
+    position:relative ;
+    
+   
+}
+
+#galleryContainer{
+    color: white;
+    position: absolute;
+    left: 10%;
+    bottom: 42%;
+}
+#galleryContainer h1{
+font-size: 80px;
+color: white;
+margin-bottom: 20px;
+}
+
+
+#galleryContainer p{
+
+
+    font-size: 30px;
+    color: white;
+}
+#imagesSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+#images-container{
+   
+    /* margin: 10%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    height: 90%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    
+}
+#images-container a{
+    
+/* border: 2px solid red; */
+height:400px;
+width: 500px;
+margin: 50px;
+}
+#images-container a img{
+border-radius: 10px;
+height:400px;
+width: 500px;
+}
+
+

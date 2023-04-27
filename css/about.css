@@ -1,0 +1,55 @@
+#about-section{
+    height: auto;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#about-container{
+    
+    margin-top: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+    height: auto;
+    width: 80%;
+}
+
+#about-container p{
+    color: grey;
+    font-size: 18px;
+    font-weight: 600;
+   margin: 20px;
+
+
+
+}
+#centreImg{
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+}
+
+#centreImg img{ 
+border-radius: 6px;
+}
+
+#about-container h3{
+    font-weight: 600;
+
+    margin-left: -54%;
+     margin-top: 20px;
+
+}
+
+ol{
+    list-style-type: disc;
+margin-bottom: 100px;
+}
+li{
+    font-size: 15px;
+    color: black;
+}
