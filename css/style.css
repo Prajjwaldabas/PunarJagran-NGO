@@ -7705,7 +7705,10 @@ textarea {
 .styled-form .form-group .thm-btn {
     line-height: 44px;
 }
-
+.pull-left {
+    float: left;
+    margin-left: 38%;
+}
 .styled-form .form-group .adon-icon {
     position: absolute;
     top: 50%;

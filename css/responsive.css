@@ -11,6 +11,7 @@
     .main-footer{
         display: none;
     }
+    
     .main-footer .footer-widget.link-column {
         margin-left: 65px;
     }
@@ -19,6 +20,10 @@
 @media (max-width: 1200px) {
     .theme_menu .defaultmainmenu {
         float: left;
+    }
+    .pull-left {
+        float: left;
+        margin-left: 10%;
     }
     .nav_side_content {
         margin-top: 37px;
