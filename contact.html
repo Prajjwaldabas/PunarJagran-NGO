@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+    #donateButton {
+      background-color: #ff5722;
+      margin-top: 5px;
+    }
+  </style>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Bulma JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/js/bulma.min.js"></script>
 </head>
 <body>
     <div class="boxed_wrapper">
@@ -17,6 +30,41 @@
                 <div class="clearfix">
                     <div class="top-bar-text float_left">
                         <!-- <button class="thm-btn donate-box-btn">donate</button> -->
+
+                        <button class="button is-primary" id="donateButton">Donate</button>
+
+<div class="modal" id="donateModal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Donate to Punarjagran Samiti</p>
+      <button class="delete" aria-label="close" onclick="closeModal()"></button>
+    </header>
+    <section class="modal-card-body">
+      <p>Account Name: PUNARJAGRAN SAMITI</p>
+      <p>Account Number: 50100079221389</p>
+      <p>IFSC Code: HDFC0001092</p>
+      <p>Bank: HDFC Bank</p>
+      <p>Address: B-88, Bhism Pitamas Marg Defence Colony, New Delhi-110024</p>
+    </section>
+    <footer class="modal-card-foot">
+    
+      <button class="button" onclick="closeModal()">Close</button>
+    </footer>
+  </div>
+</div>
+
+<script>
+  $('#donateButton').click(function() {
+    $('#donateModal').addClass('is-active');
+  });
+
+  function closeModal() {
+    $('#donateModal').removeClass('is-active');
+  }
+
+
+</script>
 
                         <p>No One Has Ever Become Poor By Giving!</p>
                     </div>
