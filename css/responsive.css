@@ -192,7 +192,8 @@
         width: 150px;
     }
     .nav_side_content {
-        margin-top: 21px;
+     margin-left:4px;
+     margin-top: 0px;
     }
     .defaultmainmenu .showhide {
         top: -6px;
