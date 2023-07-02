@@ -40,6 +40,10 @@ iframe {
     width: 100%;
 }
 
+#navCenter{
+    display: flex;
+}
+
 @media screen and (max-width: 480px) {
 
     #contact-container h1{

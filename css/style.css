@@ -1472,8 +1472,8 @@ textarea {
 .theme_menu .right-column {
    
     position: absolute;
-    right: -30px;
-    width: 160px;
+    right: 0px;
+    width: 200px;
 }
 
 .nav_side_content {
@@ -1494,11 +1494,11 @@ textarea {
 }
 
 .nav_side_content .social-icon li a:hover {
-color: #ff5722;
 
+    color: #ff5722;
 }
-.nav_side_content .social-icon li a img{
-    background-color: transparent;
+.nav_side_content .social-icon li a img:hover{
+    color: #ff5722;
 }
 
 .nav_side_content .search_option>button {
@@ -1720,6 +1720,7 @@ color: #ff5722;
 
 .urgent-cause2 .content {
     position: relative;
+    height: 180px;
     padding: 20px 18px;
     padding-bottom: 30px;
     background: #fff;
@@ -2445,6 +2446,7 @@ color: #ff5722;
     border: 1px solid #3f3f43;
     color: #fff;
     padding: 28px 0 32px;
+  
 }
 
 .fact-counter-2 .column .icon {
@@ -8276,3 +8278,21 @@ width: 100%;
 #staticBackdrop{
     z-index: 9999999;
 }
+
+
+#navCenter{
+    display: flex;
+    padding: 0 3%;
+    background: transparent;
+    float: right;
+}
+#lastContainer{
+    /* display: flex;
+    align-items: center !important;
+    justify-content: center !important; */
+    width: 100%;
+}
+
+/* .lastContainer_items{
+    width: 60%;
+} */
