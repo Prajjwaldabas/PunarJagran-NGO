@@ -36,7 +36,32 @@
 
 
 
+$(document).ready(function() {
+    // Get the current page URL
+    var currentUrl = window.location.href;
+  
+    // Loop through each menu item
+    $('.defaultmainmenu-menu li').each(function() {
+      var link = $(this).find('a');
+      var linkUrl = link.attr('href');
+  
+      // Check if the current page URL matches the menu item URL
+      if (currentUrl.indexOf(linkUrl) !== -1) {
+        $(this).addClass('active');
+      }
+    });
+  });
+  
+  
 
+
+
+
+
+
+
+
+//   /////////////////////////////////////////////////////////////////
 
 
 
@@ -55,17 +80,23 @@
     // stickyheader
     function stickyHeader() {
         if ($('.stricky').length) {
-            var strickyScrollPos = 100;
-            if ($(window).scrollTop() > strickyScrollPos) {
-                $('.stricky').removeClass('fadeIn animated');
-                $('.stricky').addClass('stricky-fixed fadeInDown animated');
-                $('.scroll-to-top').fadeIn(500);
-            } else if ($(this).scrollTop() <= strickyScrollPos) {
-                $('.stricky').removeClass('stricky-fixed fadeInDown animated');
-                $('.stricky').addClass('slideIn animated');
-                $('.scroll-to-top').fadeOut(500);
-            }
-        };
+            var strickyScrollPos = 50;
+            var isFixed = false; // Track whether the navbar is already fixed
+    
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > strickyScrollPos && !isFixed) {
+                    $('.stricky').removeClass('fadeIn animated');
+                    $('.stricky').addClass('stricky-fixed fadeInDown animated');
+                    $('.scroll-to-top').fadeIn(500);
+                    isFixed = true; // Set the navbar as fixed
+                } else if ($(window).scrollTop() <= strickyScrollPos && isFixed) {
+                    $('.stricky').removeClass('stricky-fixed fadeInDown animated');
+                    $('.stricky').addClass('slideIn animated');
+                    $('.scroll-to-top').fadeOut(500);
+                    isFixed = false; // Set the navbar as not fixed
+                }
+            });
+        }
     }
 
 

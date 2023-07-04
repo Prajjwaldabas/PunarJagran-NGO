@@ -1059,6 +1059,7 @@ textarea {
    ============================== */
 
 .top-bar {
+   padding: 10px 0px;
     position: relative;
     line-height: 48px;
     z-index: 999;
@@ -1177,7 +1178,7 @@ textarea {
         margin-top: -100px;
     }
     50% {
-        margin-top: -90px;
+        margin-top: -100px;
     }
     100% {
         margin-top: 0;
@@ -1472,8 +1473,11 @@ textarea {
 .theme_menu .right-column {
    
     position: absolute;
+  top: 0px;
     right: 0px;
     width: 200px;
+   
+    
 }
 
 .nav_side_content {
@@ -1566,6 +1570,9 @@ textarea {
 ***/
 
 .rev_slider_wrapper {
+   
+    /* height: 300px !important; */
+    /* border: 5px solid black ; */
     margin-top: -151px;
 }
 
@@ -7724,7 +7731,7 @@ textarea {
 }
 .pull-left {
     float: left;
-    margin-left: 38%;
+    margin-left: 44%;
 }
 .styled-form .form-group .adon-icon {
     position: absolute;
@@ -8296,3 +8303,217 @@ width: 100%;
 /* .lastContainer_items{
     width: 60%;
 } */
+.rev_slider{
+    height: 600px !important;
+    /* border: 5px solid red; */
+}
+
+#modalitems{
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+#modalitems div{
+position: absolute;
+top: 5%;
+right: 5%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#modalitems div img{
+height: 200px;
+width: 200px;
+}
+
+
+/* new slider css  ///////////////////////////////*/
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    
+
+  }
+  
+  .slide {
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .slide img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  
+  .dots {
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: rgb(255,87,34);
+  }
+  
+  .slide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .slide.active .slide-text {
+
+    animation-name: slideInLeft;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(0);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(20%);
+      opacity: 1;
+    }
+  }
+
+  .slide-text h1{
+    transition: none 0s ease 0s;
+    line-height: 62px;
+    border-width: 0px;
+    margin: 14px 0px 9px;
+    padding: 0px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 55px;
+}
+  
+
+.slide-text p {
+    transition: none 0s ease 0s;
+    line-height: 30px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-size: 18px;
+}
+  .slide-text h1,
+  .slide-text p {
+    color: whitesmoke;
+    display: flex;
+    justify-content: left;
+   /* border: 5px solid greenyellow; */
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+  }
+  
+  .slide.active .slide-text h1,
+  .slide.active .slide-text p {
+    animation-name: revealText;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes revealText {
+0% {
+        width: 0;
+        opacity: 0;
+      }
+      100% {
+        width: 100%;
+        opacity: 1;
+      }
+  }
+
+  .slider-controls button{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: grey;
+    background-color: rgba(0,0,0,25%);
+    border: none;
+    font-size: 20px;
+    
+      }
+    
+      .prev-btn{
+
+        position: absolute;
+        left: 5%;
+        top: 50%;
+      }
+      .next-btn{
+        position: absolute;
+        right: 5%;
+        top: 50%;
+      }
+    
+      .slider-controls button:hover{ 
+        background-color: rgba(0,0,0,45%);
+        transition: all ease-in-out 1s;
+    color: white;
+      }
+
+
+      /* nav active link css */
+
+      .defaultmainmenu-menu li.active a {
+        color: rgb(255,87,34) ;
+      }
+      

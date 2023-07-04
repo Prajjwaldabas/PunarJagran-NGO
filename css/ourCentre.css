@@ -78,3 +78,56 @@ flex-direction: column;
     /* border: 1px solid red; */
     width: 300px;
 }
+
+@media (max-width: 1600px) {
+
+
+  .parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid yellowgreen; */
+    justify-content: space-around;
+   
+    gap: 20px;
+  
+    padding: 5%;
+    height: 110vh;
+}
+
+.child-container {
+  display: flex;
+  /* border: 1px solid red; */
+  flex-direction: row;
+  margin-bottom: 5%;
+  width: 100%;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+}
+
+.child-container {
+width: 100%;
+}
+
+.child-container {
+  flex-direction: column;
+  display: flex;
+  /* border: 1px solid red; */
+  
+  margin-bottom: 5%;
+  width: 100%;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+}
+
+.StatesContainer {
+  /* border: 1px solid red; */
+  margin-bottom: 5%;
+  width: 100%;
+}
+.footer-bottom {
+  width: 100%;
+  position: absolute;
+  /* margin-top: 232px; */
+}
+
+}
