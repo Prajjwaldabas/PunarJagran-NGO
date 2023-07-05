@@ -80,7 +80,7 @@ $(document).ready(function() {
     // stickyheader
     function stickyHeader() {
         if ($('.stricky').length) {
-            var strickyScrollPos = 50;
+            var strickyScrollPos = 10;
             var isFixed = false; // Track whether the navbar is already fixed
     
             $(window).scroll(function() {

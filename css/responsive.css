@@ -1,4 +1,7 @@
 @media (min-width: 1200px) {
+
+
+    
     .theme_menu .right-column {
         right: -40px;
         top: 0px;
@@ -19,9 +22,14 @@
     .main-footer .footer-widget.link-column {
         margin-left: 65px;
     }
+
+    
 }
 
 @media (max-width: 1200px) {
+
+
+
     .theme_menu .right-column {
         right: -15px;
         top: -30px;
@@ -40,6 +48,29 @@
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
+    .dots {
+        position: absolute;
+        top: 90%;
+        left: 46%;
+   
+    }
+
+    .fact-counter-2 .column .count-area {
+      
+        width: 300px;
+
+}
+.fact-counter-2 .count-outer {
+   
+    font-size: 25px;
+ 
+}
+
+.fact-counter-2 .column .counter-title {
+
+    font-size: 22px;
+  
+}
     .theme_menu .right-column {
         right: -59px;
         top: -8px;
@@ -59,6 +90,29 @@
 
 @media (max-width: 991px) {
 
+    .dots {
+        position: absolute;
+        top: 90%;
+        left: 45%;
+   
+    }
+
+    .fact-counter-2 .column .count-area {
+      
+        width: 300px;
+
+}
+.fact-counter-2 .count-outer {
+   
+    font-size: 25px;
+ 
+}
+
+.fact-counter-2 .column .counter-title {
+
+    font-size: 22px;
+  
+}
     /* new add css */
     .urgentCause {
         width: 100%;
@@ -228,7 +282,28 @@
 
 @media (max-width: 767px) {
 
+    .dots {
+        position: absolute;
+        top: 90%;
+        left: 43%;
+   
+    }
+    .fact-counter-2 .column .count-area {
+      
+        width: 400px;
 
+}
+.fact-counter-2 .count-outer {
+   
+    font-size: 25px;
+ 
+}
+
+.fact-counter-2 .column .counter-title {
+
+    font-size: 22px;
+  
+}
     .theme_menu .right-column {
         right: 0px;
         top: -30px;
@@ -292,6 +367,29 @@
 }
 
 @media (max-width: 600px) {
+
+    .dots {
+        position: absolute;
+        top: 90%;
+        left: 42%;
+   
+    }
+    .fact-counter-2 .column .count-area {
+      
+        width: 270px;
+
+}
+.fact-counter-2 .count-outer {
+   
+    font-size: 25px;
+ 
+}
+
+.fact-counter-2 .column .counter-title {
+
+    font-size: 15px;
+  
+}
     .theme_menu .right-column {
         right: 0px;
         top: -30px;
@@ -337,6 +435,30 @@
 }
 
 @media (max-width: 575px) {
+
+    .dots {
+        position: absolute;
+        top: 90%;
+        left: 39%;
+   
+    }
+
+    .fact-counter-2 .column .count-area {
+        
+        width: 250px;
+
+}
+.fact-counter-2 .count-outer {
+   
+    font-size: 25px;
+ 
+}
+
+.fact-counter-2 .column .counter-title {
+
+    font-size: 14px;
+  
+}
 
     .theme_menu .right-column {
         right: 0px;
@@ -394,6 +516,29 @@
 }
 
 @media (max-width: 475px) {
+    .dots {
+        position: absolute;
+        top: 90%;
+        left: 39%;
+   
+    }
+
+    .fact-counter-2 .column .count-area {
+        
+            width: 250px;
+
+    }
+    .fact-counter-2 .count-outer {
+       
+        font-size: 20px;
+     
+    }
+
+    .fact-counter-2 .column .counter-title {
+    
+        font-size: 13px;
+      
+    }
     .theme_menu .right-column {
         right: 0px;
         top: 0px;
@@ -438,7 +583,7 @@
         font-size: 6px;
     }
     .fact-counter .column {
-        width: inherit;
+        width: 100%;
         margin: 0 auto;
         margin-bottom: 20px;
         float: inherit;

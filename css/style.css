@@ -2473,9 +2473,19 @@ textarea {
     -o-transition: all 500ms ease;
 }
 
-.fact-counter-2 .column .count-area {
-    float: left;
-}
+
+
+    .fact-counter-2 .column .count-area {
+        /* border: 1px solid orangered; */
+      width: 500px;
+        align-items: center;
+        display: flex;
+        float: left;
+        justify-content: space-between;
+    }
+
+
+
 
 .fact-counter-2 .count-outer {
     position: relative;
@@ -2489,7 +2499,7 @@ textarea {
 
 .fact-counter-2 .column .counter-title {
     position: relative;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 300;
     color: #ffffff;
 }
@@ -8298,11 +8308,24 @@ width: 100%;
     align-items: center !important;
     justify-content: center !important; */
     width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-/* .lastContainer_items{
-    width: 60%;
-} */
+.lastContainer_items{
+    
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        background: rgba(0, 0, 0, 0.15);
+        border: 1px solid #3f3f43;
+        color: #fff;
+        padding: 28px 0 32px;
+    
+}
 .rev_slider{
     height: 600px !important;
     /* border: 5px solid red; */
@@ -8341,8 +8364,8 @@ body{
 .slider {
     position: relative;
     width: 100%;
-    height: 90vh;
-    
+    height: 95vh !important;
+    /* border: 2px solid red; */
 
   }
   
@@ -8372,10 +8395,13 @@ body{
   }
   
   .dots {
+position: absolute;
+top: 90%;
+left: 50%;
     z-index: 999999;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+  
   }
   
   .dot {
