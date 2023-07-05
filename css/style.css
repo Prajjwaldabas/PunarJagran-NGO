@@ -1481,7 +1481,7 @@ textarea {
 }
 
 .nav_side_content {
-    margin-top: 31px;
+    margin-top: 20px;
     position: relative;
 }
 
@@ -8543,3 +8543,10 @@ left: 50%;
         color: rgb(255,87,34) ;
       }
       
+
+      #languageDropdown{
+        
+            font-size: 16px;
+            border: none;
+        
+      }
