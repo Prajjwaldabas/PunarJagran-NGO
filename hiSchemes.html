@@ -28,68 +28,78 @@
 </head>
 
 <body>
-    <div class="boxed_wrapper">
-        <div class="top-bar">
-            <div class="container">
-                <div class="clearfix">
-                  <div class="top-bar-text float_left">
-      
-      
-      
-      <button class="button is-primary" id="donateButton">दान देना</button>
-      
-      <div class="modal" id="donateModal">
-        <div class="modal-background"></div>
-        <div class="modal-card">
-          <header class="modal-card-head">
-            <p class="modal-card-title">पुनर्जागरण समिति को दान दें</p>
-            <button class="delete" aria-label="close" onclick="closeModal()"></button>
-          </header>
-          <section class="modal-card-body" id="modalitems">
-            <p>खाते का नाम: पुनर्जागरण समिति</p>
-            <p>खाता संख्या: 50100079221389</p>
-            <p>आईएफएससी कोड: एचडीएफसी0001092</p>
-            <p>बैंक: एचडीएफसी बैंक</p>
-            <p>पता: बी-88, भीष्म पितामास मार्ग डिफेंस कॉलोनी, नई दिल्ली-110024</p>
-            <div>  <img src="./images/slider/Scanner.jpg" alt=""></div>
+  <div class="boxed_wrapper">
+    <div class="top-bar">
+        <div class="container">
+            <div class="clearfix">
+                <div class="top-bar-text float_left">
+                    <!-- <button class="thm-btn donate-box-btn">donate</button> -->
+                    <button class="button is-primary" id="donateButton">दान देना</button>
+
+                    <div class="modal" id="donateModal">
+                      <div class="modal-background"></div>
+                      <div class="modal-card">
+                        <header class="modal-card-head">
+                          <p class="modal-card-title">पुनर्जागरण समिति को दान दें</p>
+                          <button class="delete" aria-label="close" onclick="closeModal()"></button>
+                        </header>
+                        <section class="modal-card-body" id="modalitems">
+                          <p>खाते का नाम: पुनर्जागरण समिति</p>
+                          <p>खाता संख्या: 50100079221389</p>
+                          <p>आईएफएससी कोड: एचडीएफसी0001092</p>
+                          <p>बैंक: एचडीएफसी बैंक</p>
+                          <p>पता: बी-88, भीष्म पितामास मार्ग डिफेंस कॉलोनी, नई दिल्ली-110024</p>
+                          <div>  <img src="./images/slider/Scanner.jpg" alt=""></div>
+                        
+                        </section>
+                        <footer class="modal-card-foot">
+                        
+                          <button class="button" onclick="closeModal()">बंद करना</button>
+                        </footer>
+                      </div>
+                    </div>
+                        
+                        <script>
+                          $('#donateButton').click(function() {
+                            $('#donateModal').addClass('is-active');
+                          });
+                        
+                          function closeModal() {
+                            $('#donateModal').removeClass('is-active');
+                          }
+                        
+                        
+                        </script>
+
+
+<p>देने से कभी कोई गरीब नहीं हुआ!</p>
+</div>
+
+<div class="right-column float_right">
+  <ul class="list_inline contact-info">
+    <li><span class="icon-phone"></span>फ़ोन: +91 9958373274</li>
+
+    <li>
+      <span class="icon-back"></span>ईमेल: punarjagransamitigroup@gmail.com
+    </li>
+  </ul>
+
+  <div class="" id="polyglotLanguageSwitcher">
+    <select id="languageDropdown">
+      <a href=""><option value="">भाषा </option></a>
+      <a href="gallery.html"><option value="en">अंग्रेज़ी</option></a>
+     <a href="hiHome.html"><option value="hi">हिंदी</option></a> 
+    </select>
+                          
+                                      
+                   
           
-          </section>
-          <footer class="modal-card-foot">
-          
-            <button class="button" onclick="closeModal()">बंद करना</button>
-          </footer>
-        </div>
-      </div>
-      
-      
-      
-      
-                    <p>देने से कभी कोई गरीब नहीं हुआ!</p>
-                  </div>
-      
-                  <div class="right-column float_right">
-                    <ul class="list_inline contact-info">
-                      <li><span class="icon-phone"></span>फ़ोन: +91 9958373274</li>
-      
-                      <li>
-                        <span class="icon-back"></span>ईमेल: punarjagransamitigroup@gmail.com
-                      </li>
-                    </ul>
-      
-                    <div class="" id="polyglotLanguageSwitcher">
-                      <select id="languageDropdown">
-                        <a href=""><option value="">भाषा </option></a>
-                        <a href="gallery.html"><option value="en">अंग्रेज़ी</option></a>
-                       <a href="hiHome.html"><option value="hi">हिंदी</option></a> 
-                      </select>
-                      
-                                  
-               
-      
-                  </div>
+                      </div>
+                       
+                    </div>
                 </div>
-              </div>
             </div>
+        </div>
 
         <section class="theme_menu stricky">
             <div class="container">
@@ -101,30 +111,29 @@
                     </div>
 
                     <div class="col-md-9 menu-column" id="navCenter">
-                        <nav class="defaultmainmenu" id="main_menu">
-                            <ul class="defaultmainmenu-menu">
-                              <li>
-                                <a href="hiHome.html">मुखपृष्ठ</a>
-                              </li>
-                              <li>
-                                <a href="hiGallery.html">गेलरी</a>
-                              </li>
-                              <li>
-                                <a href="hiAbout.html">हमारे बारे में</a> 
-                              </li>
-                              <li>
-                                <a href="hiOurCentre.html">केंद्र</a> 
-                              </li>
-                              <li>
-                                <a href="hiSchemes.html">कार्यक्रम</a> 
-                              </li>
-                              <li>
-                                <a href="hiContact.html">संपर्क करें</a> 
-                              </li>
-                            </ul>
-                          </nav>
-                      </div>
-
+                      <nav class="defaultmainmenu" id="main_menu">
+                        <ul class="defaultmainmenu-menu">
+                          <li>
+                            <a href="hiHome.html">मुखपृष्ठ</a>
+                          </li>
+                          <li>
+                            <a href="hiGallery.html">गेलरी</a>
+                          </li>
+                          <li>
+                            <a href="hiAbout.html">हमारे बारे में</a> 
+                          </li>
+                          <li>
+                            <a href="hiOurCentre.html">केंद्र</a> 
+                          </li>
+                          <li>
+                            <a href="hiSchemes.html">कार्यक्रम</a> 
+                          </li>
+                          <li>
+                            <a href="hiContact.html">संपर्क करें</a> 
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
 
 
                     <div class="right-column">
@@ -171,82 +180,147 @@
 
 
                 <h1 id="heading">हमारे कार्यक्रम</h1>
-                <p id="quote"> अपने कार्यक्रमों के माध्यम से सकारात्मक परिवर्तन लाना।</p>
+                <p id="quote"> अपने कार्यक्रमों के माध्यम से सकारात्मक परिवर्तन लाना.</p>
 
 
             </div>
 
         </div>
-
+        
         <section id="imagesSection">
+          
+          <div id="images-container">
 
-            <div id="images-container">
-              <a href=""><img src="./images/Gallery/56.jpg" alt=""></a>
-<a href=""><img src="./images/Gallery/57.jpg" alt=""></a>
-<a href=""><img src="./images/Gallery/58.jpg" alt=""></a>
-<a href=""><img src="./images/Gallery/59.jpg" alt=""></a>
-<a href=""><img src="./images/Gallery/60.jpg" alt=""></a>
-<a href=""><img src="./images/Gallery/61.jpg" alt=""></a>
-<a href=""><img src="./images/Gallery/67.jpg" alt=""></a>
-<a href=""><img src="./images/Gallery/68.jpg" alt=""></a>
+              <div class="imgItems">
+              <h1>खेल संगम 2023</h1>
+              <div class="items">
+                <a href="#"><img src="./images/programmes/4.jpeg" alt="" class="gallery-image" ></a>
+                <a href="#"><img src="./images/programmes/5.jpeg" alt=""  class="gallery-image" ></a>
+              
+              </div>
+              
+              </div>
 
 
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/41.jpg" alt="">
-                </a>
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/42.jpg" alt="">
-                </a>
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/43.jpg" alt="">
-                </a>
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/44.jpg" alt="">
-                </a>
+              <div class="imgItems">
+                <h1>स्वतंत्रता दिवस 2022</h1>
+                <div class="items">
+                  <a href="#"><img src="./images/programmes/6.jpeg" alt="" class="gallery-image" ></a>
+                  <a href="#"><img src="./images/programmes/7.jpeg" alt="" class="gallery-image" ></a>
+                  <a href="#"><img src="./images/programmes/8.jpeg" alt="" class="gallery-image" ></a>
+                
+  </div>
+  
+  </div>
+  
+                <div class="imgItems">
+                <h1>गणतंत्र दिवस 2023</h1>
+                
+                <div class="items">
+  
+                <a href="#"><img src="./images/programmes/9.jpeg"  alt="" class="gallery-image" ></a> 
+                  <a href="#"><img src="./images/programmes/10.jpeg" alt="" class="gallery-image" ></a>
+                  <a href="#"><img src="./images/programmes/11.jpeg" alt="" class="gallery-image" ></a>
+  
+                  </div>
+  
+                  <div class="items">
+                    <a href="#"><img src="./images/programmes/12.jpeg" alt="" class="gallery-image" ></a>
+                    <a href="#"><img src="./images/programmes/13.jpeg" alt="" class="gallery-image" ></a>
+                    <a href="#"><img src="./images/programmes/14.jpeg" alt="" class="gallery-image" ></a>
+                  </div>
+              
+                  <div class="items">
+                    <a href="#"><img src="./images/programmes/15.jpeg" alt="" class="gallery-image" ></a>
+                    <a href="#"><img src="./images/programmes/16.jpeg" alt="" class="gallery-image" ></a>
+                  </div>
+  
+  
+                </div>
+
+              <div class="imgItems">
+              <h1>खेल संगम 2022</h1>
+              <div class="items">
+              <a href="#"><img src="./images/programmes/1.jpeg" alt=""  class="gallery-image" ></a>
+<a href="#"><img src="./images/programmes/2.jpeg" alt=""  class="gallery-image"></a>
+<a href="#"><img src="./images/programmes/3.jpeg" alt=""  class="gallery-image"></a>
+</div>
+
+</div>
+
+
              
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/47.jpg" alt="">
-                </a>
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/48.jpg" alt="">
-                </a>
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/49.jpg" alt="">
-                </a>
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/50.jpg" alt="">
-                </a>
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/51.jpg" alt="">
-                </a>
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/52.jpg" alt="">
-                </a>
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/53.jpg" alt="">
-                </a>
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/54.jpg" alt="">
-                </a>
-                <a href="" class="imageLink">
-                    <img src="./images/Gallery/55.jpg" alt="">
-                </a>
+
+              <div class="imgItems">
+                <h1>दीपावली कार्यक्रम </h1>
+
+                <div class="items">
+
+                  <a href="#"><img src="./images/programmes/17.jpeg" alt="" class="gallery-image" ></a>
+                  <a href="#"><img src="./images/programmes/18.jpeg" alt="" class="gallery-image" ></a>
+                  <a href="#"><img src="./images/programmes/19.jpeg" alt="" class="gallery-image" ></a>
+  
+                  </div>
+                <div class="items">
+
+                  <a href="#"><img src="./images/programmes/20.jpeg" alt="" class="gallery-image" ></a>
+                  <a href="#"><img src="./images/programmes/21.jpeg" alt="" class="gallery-image" ></a>
+                  <a href="#"><img src="./images/programmes/22.jpeg" alt="" class="gallery-image" ></a>
+  #
+                  </div>
+                <div class="items">
+
+                  <a href="#"><img src="./images/programmes/23.jpeg" alt="" class="gallery-image" ></a>
+                  <a href="#"><img src="./images/programmes/24.jpeg" alt="" class="gallery-image" ></a>
+                  <a href="#"><img src="./images/programmes/25.jpeg" alt="" class="gallery-image" ></a>
+  
+                  </div>
+                <div class="items">
+
+                  <a href="#"><img src="./images/programmes/26.jpeg" alt="" class="gallery-image" ></a>
+                
+  
+                  </div>
+
+
+
+                </div>
+
+                
+               
+               
+
+</div>
+
+</div>
+
+
+
+
+            
+           
 
 
 
 
             </div>
+     <div id="modal" class="modal">
+          <span class="close">&times;</span>
+          <img id="modal-image" src="" alt="" class="modal-content" />
+        </div>
 
-
+          
 
         </section>
+
+   
 
 
         <section class="footer-bottom">
             <div class="container">
               <div class="pull-left copy-text">
                 <p>
-                    <a href="https://github.com/Prajjwaldabas">वेबसाइट प्रज्ज्वल द्वारा विकसित की गई है</a>
+                  <a href="https://github.com/Prajjwaldabas"> वेबसाइट प्रज्ज्वल द्वारा विकसित की गई है</a>
                   <!-- <a href="#">Punarjagran Samiti</a> -->
                 </p>
               </div>
@@ -306,6 +380,7 @@
         <script src="js/rev-slider/revolution.extension.video.min.js"></script>
         <script src="js/custom.js"></script>
         <script src="js/Home_hi.js"></script>
+        <script src="js/openImage.js"></script>
 </body>
 
 </html>

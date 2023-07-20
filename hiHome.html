@@ -87,7 +87,17 @@
   </div>
 </div>
 
+<script>
+  $('#donateButton').click(function() {
+    $('#donateModal').addClass('is-active');
+  });
 
+  function closeModal() {
+    $('#donateModal').removeClass('is-active');
+  }
+
+
+</script>
 
 
               <p>देने से कभी कोई गरीब नहीं हुआ!</p>
@@ -197,51 +207,63 @@
       <div class="slider rev_slider ">
         <div class="slide">
           <img src="./images/slider/Education.jpg" alt="">
-          <div class="slide-text">
-            <h1 class="animate-left">शिक्षा सफलता की  कुंजी है<br />
-               </h1>
-            <p class="animate-left">शिक्षा वह नींव है जिस पर हम अपना भविष्य बनाते हैं।</p>
+          <div class="contents">
+            <div class="slide-text">
+              <h1 class="animate-left">शिक्षा सफलता की  कुंजी है।<br />
+                 </h1>
+              <p class="animate-left">शिक्षा वह नींव है जिस पर हम अपना भविष्य बनाते हैं।</p>
+            </div>
           </div>
+     
           
         </div>
         <div class="slide">
           <img src="/images/slider/SkillDevelopment.jpg" alt="">
+
+          <div class="contents">
           <div class="slide-text">
             <h1 class="animate-left">कौशल जीवन, समुदाय और
-            <br>  राष्ट्र को बदल देते हैं</h1>
+            <br>  राष्ट्र को बदल देते हैं।</h1>
             <p class="animate-left">आप जीवन में वह सब कुछ पा सकते हैं जो आप चाहते हैं
             
                 यदि आप अन्य लोगों को वह प्राप्त करने में पर्याप्त मदद करेंगे जो वे चाहते हैं।</p>
+          </div>
           </div>
           
         </div>
         <div class="slide">
           <img src="/images/slider/Health.jpg" alt="">
+          <div class="contents">
           <div class="slide-text">
             <h1 class="animate-left"> स्वास्थ्य सेवा एक बुनियादी मानव अधिकार है,
             <br >
             विशेषाधिकार नहीं।</h1>
             <p class="animate-left">स्वास्थ्य खुशी की नींव है
-                और जीवन में सफलता.</p>
+                और जीवन में सफलता।</p>
+          </div>
           </div>
           
         </div>
         <div class="slide">
           <img src="/images/slider/Environment.jpg" alt="">
+          <div class="contents">
           <div class="slide-text">
             <h1 class="animate-left">जब हम पृथ्वी को स्वस्थ करेंगे,<br />
-                हम खुद को ठीक करते हैं</h1>
+                हम खुद को ठीक करते हैं।</h1>
             <p class="animate-left">हमें पृथ्वी का ख्याल रखना चाहिए
                 चूँकि यह हमारा एकमात्र घर है।</p>
+          </div>
           </div>
           
         </div>
         <div class="slide">
           <img src="/images/slider/Sports.jpg" alt="">
+          <div class="contents">
           <div class="slide-text">
             <h1 class="animate-left">खेल जीवन बदल सकते हैं। </h1>
             <p class="animate-left">  खेल बच्चों के लिए अवसरों और संभावनाओं की दुनिया खोल सकते हैं,
                 और लक्ष्य निर्धारित करने का महत्व।</p>
+          </div>
           </div>
           
         </div>
@@ -469,102 +491,111 @@
         </div>
       </section>
 
-      <section class="about sec-padd2">
-        <div class="container">
-          <div class="section-title center">
-            <h2>हमारी मानवता <span class="thm-color">के बारे में </span></h2>
+<!-- humaity section -->
+
+
+<section class="about sec-padd2">
+  <div class="container">
+    <div class="section-title center">
+      <h2>हमारी मानवता <span class="thm-color">के बारे में </span></h2>
+    </div>
+
+    <div class="row">
+      <article class="col-md-6 col-sm-12 left-column" id="aboutHumanityArticle">
+        <div class="row padd-bottom-30">
+          <div class="col-md-6 col-sm-6 col-xs-12 h-100">
+            <div class="img-box" id="abtOurHumanityImg1">
+              <img alt="" src="images/resource/1.jpeg" />
+            </div>
           </div>
 
-          <div class="row">
-            <article class="col-md-6 col-sm-12 left-column" >
-              <div class="row padd-bottom-30">
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                  <div class="img-box" id="abtOurHumanityImg1">
-                    <img alt="" src="images/resource/1.jpeg" />
-                  </div>
-                </div>
+          <div class="col-md-6 col-sm-6 col-xs-12  h-100" >
+            <h3>शिक्षा के माध्यम से जीवन में परिवर्तन</h3>
 
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                  <h3>हम क्या करते हैं</h3>
+            <p>
+              हम देश के कोने-कोने से उन सभी बच्चों को पढ़ाते हैं, जिनके माता-पिता उन्हें पढ़ाने में असमर्थ हैं।
+              जो बच्चे गरीब बस्तियों में रहते हैं, सड़कों पर घूमते हैं, सड़कों पर भीख मांगते हैं। हम सब इकट्ठा करते हैं
+              इन बच्चों को जीवन में शिक्षा का महत्व समझाएं और इसकी राह दिखाएं
+              जीवन जियो और जीवन को एक अलग दृष्टिकोण से देखो। बाल संस्कार केन्द्रों में पढ़ाने के साथ-साथ
+              बच्चों को हम साफ-सफाई और पर्यावरण को स्वच्छ रखना और हर चीज को व्यवस्थित करना भी सिखाते हैं।
+              बाल संस्कार के बच्चे अपनी परंपरा को अच्छी तरह से जानते हैं और उसका पालन भी करते हैं।
 
-                  <p>
-                    सुख की निंदा और दुःख की प्रशंसा करने का विचार पैदा हुआ और मैं
-                    आपको सिस्टम का पूरा विवरण देगा और समझाएगा
-                    वास्तव में सत्य के महान अन्वेषक की शिक्षाएँ।
-                  </p>
-                </div>
-              </div>
+              पुर्नजागरण समिति का उद्देश्य सभी जरूरतमंद बच्चों को शिक्षित करना और संस्कारित करना है
+              उनके मन में आत्मविश्वास लाना और उन्हें जागरूक करना। ताकि वे अपना जीवन आसानी से जी सकें और जी सकें
+              एक अच्छी जिंदगी।
+            </p>
 
-              <div class="row padd-bottom-30">
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                  <div class="img-box" id="abtOurHumanityImg2">
-                    <img alt="" src="images/resource/35.jpeg" />
-                  </div>
-                </div>
 
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                  <h3>यह काम किस प्रकार करता है</h3>
+            
+          </div>
 
-                  <p>
-                    जो स्वयं का दर्द प्यार करता है या पीछा करता है या पाने की इच्छा रखता है,
-                    क्योंकि यह दर्द है, क्योंकि कभी-कभी परिस्थितियाँ घटित होती हैं
-                    जो परिश्रम और पीड़ा उसे कुछ महान आनंद दिला सकती है।
-                  </p>
-                </div>
-              </div>
-            </article>
+          <div class="col-md-6 col-sm-6 col-xs-12 h-100" id="yearsOfExp">
+            <h3 class="thm-color">वर्षों का अनुभव</h3>
 
-            <article class="col-md-6 col-sm-6 col-xs-12">
-              <div class="content">
-                <div class="text">
-                  <p>
-                    जब आप हमारी मानवता को देते हैं, तो आप जानते हैं कि आपका दान है
-                    फर्क डालना। चाहे आप हमारे किसी एक का समर्थन कर रहे हों
-                    हस्ताक्षर कार्यक्रम या उपहारों की हमारी सावधानीपूर्वक तैयार की गई सूची
-                    दैट गिव मोर, हमारा पेशेवर स्टाफ हर दिन कड़ी मेहनत करता है
-                    यह सुनिश्चित करने के लिए कि प्रत्येक डॉलर का आपके हित पर प्रभाव पड़े
-                    पसंद।
-                  </p>
-                </div>
-
-                <h3 class="thm-color">वर्षों का अनुभव</h3>
-
-                <div class="text">
-                  <p>
-                    हम दुनिया भर में 320 से अधिक अद्भुत परियोजनाओं के साथ साझेदारी करते हैं, और
-                    को 150 मिलियन डॉलर से अधिक नकद और उत्पाद अनुदान दिया है
-                    2011 से अन्य समूह। हम अपनी स्वयं की गतिशीलता भी संचालित करते हैं
-                    हस्ताक्षर कार्यक्रमों का सुइट।
-                  </p>
-                </div>
-
-                <ul>
-                  <li>
-                    <i class="fa fa-check"></i>यह निंदा करने का गलत विचार है
-                    आनंद
-                  </li>
-
-                  <li>
-                    <i class="fa fa-check"></i>मानव सुख के स्वामी-निर्माता
-                  </li>
-
-                  <li>
-                    <i class="fa fa-check"></i>कभी-कभी परिस्थितियाँ घटित हो जाती हैं
-                    परिश्रम में
-                  </li>
-
-                  <li>
-                    <i class="fa fa-check"></i>श्रमसाध्य शारीरिक कार्य करता है
-                    व्यायाम
-                  </li>
-                </ul>
-              </div>
-            </article>
+            <div class="text">
+              <p>
+                सोसायटी को औपचारिक रूप से 2014 में पंजीकृत किया गया था लेकिन हम 2012 से काम कर रहे हैं
+                सम्पूर्ण भारत में कल्याणकारी एवं रचनात्मक गतिविधियाँ। के अंतर्गत सोसायटी पंजीकृत भी है
+                2016 में धारा 80जी.
+              </p>
+            </div>
           </div>
         </div>
-      </section>
+        
+         
+      </article>
 
+      <!-- <article class="col-md-6 col-sm-6 col-xs-12">
+        <div class="content">
+          <div class="text">
+            <p>
+              When you give to Our humanity, you know your donation is
+              making a difference. Whether you are supporting one of our
+              Signature Programs or our carefully curated list of Gifts
+              That Give More, our professional staff works hard every day
+              to ensure every dollar has impact for the cause of your
+              choice.
+            </p>
+          </div>
 
+          <h3 class="thm-color">Years of Experience</h3>
+
+          <div class="text">
+            <p>
+
+              The society was formally registered in 2014 but we have been working since 2012. It has undertaken the
+              welfare and constructive activities in the all over the India. The society is also registered under
+              section 80G in 2016.
+            </p>
+          </div>
+
+          <ul>
+            <li>
+              <i class="fa fa-check"></i>This mistaken idea of denouncing
+              pleasure
+            </li>
+
+            <li>
+              <i class="fa fa-check"></i>Master-builder of human happiness
+            </li>
+
+            <li>
+              <i class="fa fa-check"></i>Occasionally circumstances occur
+              in toil
+            </li>
+
+            <li>
+              <i class="fa fa-check"></i>Undertakes laborious physical
+              exercise
+            </li>
+          </ul>
+        </div>
+      </article> -->
+    </div>
+  </div>
+</section>
+
+     
       <section
         class="fact-counter fact-counter-2 sec-padd"
         style="background-image: url(images/background/10.jpg)"
@@ -592,7 +623,7 @@
                         <span
                           class="count-text"
                           data-speed="1000"
-                          data-stop="5525"
+                          data-stop="5615"
                           >0</span
                         >
                       </div>
@@ -618,7 +649,7 @@
                         <span
                           class="count-text"
                           data-speed="1000"
-                          data-stop="49"
+                          data-stop="50"
                           >0</span
                         >
                       </div>
