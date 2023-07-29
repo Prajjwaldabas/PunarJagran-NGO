@@ -497,7 +497,7 @@ justify-content: center;
 @media (max-width: 575px) {
 
     #galleryImg {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 200px;
         position: relative;
     }
