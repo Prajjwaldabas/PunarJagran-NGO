@@ -8615,3 +8615,13 @@ color: white;
       #yearsOfExp{
         margin-top: 18px;
       }
+
+/* footer css */
+      #footerContainer{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items:center ;
+
+
+      }
