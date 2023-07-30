@@ -8463,7 +8463,7 @@ left: 50%;
       opacity: 0;
     }
     100% {
-      transform: translateX(20%);
+      transform: translateX(0);
       opacity: 1;
     }
   }
@@ -8507,7 +8507,7 @@ color: white;
   .slide.active .slide-text h1,
   .slide.active .slide-text p {
     animation-name: revealText;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
   }
