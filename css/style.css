@@ -1060,7 +1060,7 @@ textarea {
    ============================== */
 
 .top-bar {
-   padding: 10px 0px;
+   padding: 0px 0px;
     position: relative;
     line-height: 48px;
     z-index: 999;
@@ -1190,7 +1190,7 @@ textarea {
     margin: 0;
     padding: 0;
     position: fixed;
-    background: #e9e8e8;
+    background: #e4e4e4;
     top: 0;
     left: 0;
     width: 100%;

@@ -228,7 +228,7 @@ justify-content: center;
     }
     /*======top-bar=========*/
     .top-bar {
-        padding-bottom: 15px;
+        padding-bottom:0px;
     }
     .top-bar-text {
         float: none;
