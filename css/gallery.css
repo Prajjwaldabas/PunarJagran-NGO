@@ -131,7 +131,7 @@ margin-top: 100px;
     #images-container a img{
         margin-top: 30px;
         
-        border-radius: 10px;
+        /* border-radius: 10px; */
         height:300px;
         width: 300px;
         }
