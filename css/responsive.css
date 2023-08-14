@@ -326,6 +326,16 @@ justify-content: center;
 
 @media (max-width: 767px) {
 
+    .modal-content {
+
+        top: 50%;
+        max-width: 90%;
+        max-height: 90%;
+        margin: 0 auto;
+        display: block;
+
+    }
+
     #galleryContainer h1{
         font-size: 35px !important ;
         color: white;
@@ -428,6 +438,16 @@ justify-content: center;
 
 @media (max-width: 600px) {
 
+
+    .modal-content {
+
+        top: 50%;
+        max-width: 90%;
+        max-height: 90%;
+        margin: 0 auto;
+        display: block;
+
+    }
     .dots {
         position: absolute;
         top: 90%;
@@ -495,6 +515,16 @@ justify-content: center;
 }
 
 @media (max-width: 575px) {
+
+    .modal-content {
+
+        top: 50%;
+        max-width: 90%;
+        max-height: 90%;
+        margin: 0 auto;
+        display: block;
+
+    }
 
     #galleryImg {
         /* border: 1px solid red; */
@@ -600,6 +630,16 @@ justify-content: center;
 }
 
 @media (max-width: 475px) {
+
+    .modal-content {
+
+        top: 50%;
+        max-width: 90%;
+        max-height: 90%;
+        margin: 0 auto;
+        display: block;
+
+    }
     .dots {
         position: absolute;
         top: 90%;
@@ -676,6 +716,18 @@ justify-content: center;
 }
 
 @media (max-width: 420px) {
+
+    .modal-content {
+
+        top: 50%;
+        max-width: 90%;
+        max-height: 90%;
+        margin: 0 auto;
+        display: block;
+
+    }
+    
+    
 
     .theme_menu .right-column {
         right: 0px;
