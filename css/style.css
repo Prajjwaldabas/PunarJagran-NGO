@@ -1492,8 +1492,10 @@ textarea {
 }
 
 .nav_side_content .social-icon li a {
+    padding: 10px 0;
     color: #0b0b0b;
     font-size: 20px;
+    display: flex;
 
     
 }
