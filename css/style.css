@@ -8627,3 +8627,8 @@ align-items:center ;
 
 
       }
+
+
+      .modal-card-title{
+        color: #ffffff !important;
+      }
