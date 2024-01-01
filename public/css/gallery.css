@@ -1,0 +1,143 @@
+#galleryImg{
+    position:relative ;
+    
+   
+}
+
+#galleryContainer{
+    color: white;
+    position: absolute;
+    left: 10%;
+    bottom: 42%;
+}
+#galleryContainer h1{
+font-size: 80px;
+color: white;
+margin-bottom: 20px;
+}
+
+
+#galleryContainer p{
+
+
+    font-size: 30px;
+    color: white;
+}
+#imagesSection{
+   /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+#images-container{
+   
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* border: 1px solid black; */
+    height: auto;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imgItems{
+    align-items: center;
+
+    /* border: 2px solid red; */
+    height: auto;
+    width: 90%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+   
+  
+}
+.imgItems h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+.items{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 3px solid rgb(21, 0, 255); */
+    margin-bottom: 40px;
+    height: auto;
+    width: 100%;
+
+}
+
+#images-container a{
+    
+/* border: 2px solid red; */
+height:300px;
+width: 350px;
+margin:20px;
+
+}
+#images-container a img{
+/* border-radius: 10px; */
+height:100%;
+width: 100%;
+}
+
+.footer-bottom{
+margin-top: 100px;
+}
+
+#navCenter{
+    display: flex;
+}
+
+@media screen and (max-width: 480px) {
+
+    .imgItems h1{
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 22px;
+    }
+
+    #galleryContainer{
+        color: white;
+        position: absolute;
+        left: 10%;
+        bottom: 23%;
+    }
+    #galleryContainer h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+    }
+    #galleryContainer p{
+        font-size: 15px;
+        color: white;
+    }
+    #images-container a{
+    
+        /* border: 2px solid red; */
+        height:300px;
+        width: 300px;
+        margin: 20px;
+        }
+    #images-container a img{
+        margin-top: 30px;
+        
+        border-radius: 10px;
+        height:300px;
+        width: 300px;
+        }
+
+        .footer-bottom{
+            margin-top: 50px;
+            }
+       
+}

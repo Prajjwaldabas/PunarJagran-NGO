@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>पुनर्जागरण समिति</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+    #donateButton {
+      background-color: #ff5722;
+      margin-top: 5px;
+    }
+  </style>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Bulma JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/js/bulma.min.js"></script>
+
+</head>
+
+<body>
+    <div class="boxed_wrapper">
+        <div class="top-bar">
+            <div class="container">
+                <div class="clearfix">
+                  <div class="top-bar-text float_left">
+      
+      
+      
+      <button class="button is-primary" id="donateButton">दान देना</button>
+      
+      <div class="modal" id="donateModal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">पुनर्जागरण समिति को दान दें</p>
+            <button class="delete" aria-label="close" onclick="closeModal()"></button>
+          </header>
+          <section class="modal-card-body" id="modalitems">
+            <p>खाते का नाम: पुनर्जागरण समिति</p>
+            <p>खाता संख्या: 50100079221389</p>
+            <p>आईएफएससी कोड: एचडीएफसी0001092</p>
+            <p>बैंक: एचडीएफसी बैंक</p>
+            <p>पता: बी-88, भीष्म पितामास मार्ग डिफेंस कॉलोनी, नई दिल्ली-110024</p>
+            <div>  <img src="./images/slider/Scanner.jpg" alt=""></div>
+          
+          </section>
+          <footer class="modal-card-foot">
+          
+            <button class="button" onclick="closeModal()">बंद करना</button>
+          </footer>
+        </div>
+      </div>
+      
+      <script>
+        $('#donateButton').click(function() {
+          $('#donateModal').addClass('is-active');
+        });
+      
+        function closeModal() {
+          $('#donateModal').removeClass('is-active');
+        }
+      
+      
+      </script>
+      
+      
+                    <p>देने से कभी कोई गरीब नहीं हुआ!</p>
+                  </div>
+      
+                  <div class="right-column float_right">
+                    <ul class="list_inline contact-info">
+                      <li><span class="icon-phone"></span>फ़ोन: +91 8595445204</li>
+      
+                      <li>
+                        <span class="icon-back"></span>ईमेल: punarjagransamitigroup@gmail.com
+                      </li>
+                    </ul>
+      
+                    <div class="" id="polyglotLanguageSwitcher">
+                      <select id="languageDropdown">
+                        <a href=""><option value="">भाषा </option></a>
+                        <a href="gallery.html"><option value="en">अंग्रेज़ी</option></a>
+                       <a href="hiHome.html"><option value="hi">हिंदी</option></a> 
+                      </select>
+                      
+                                  
+               
+      
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+        <section class="theme_menu stricky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="main-logo">
+                            <a href="index.html"><img alt="" src="images/logo/logo2.png" /></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9 menu-column" id="navCenter">
+                        <nav class="defaultmainmenu" id="main_menu">
+                            <ul class="defaultmainmenu-menu">
+                              <li>
+                                <a href="hiHome.html">मुखपृष्ठ</a>
+                              </li>
+                              <li>
+                                <a href="hiAbout.html">हमारे बारे में</a> 
+                              </li>
+                            
+                            
+                              <li>
+                                <a href="hiOurCentre.html"> हमारे केंद्र</a> 
+                              </li>
+                              <li>
+                                <a href="hiSchemes.html">  कार्यक्रम</a> 
+                              </li>
+                              <li>
+                                <a href="hiGallery.html">गेलरी</a>
+                              </li>
+                              <li>
+                                <a href="hiContact.html">संपर्क करें</a> 
+                              </li>
+                            </ul>
+                          </nav>
+                    </div>
+
+
+
+                    <div class="right-column">
+                        <div class="nav_side_content">
+                          <ul class="social-icon">
+                            <li>
+                              <a href="https://www.facebook.com/punarjagransamiti"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+          
+                            <li>
+                              <a href="https://www.instagram.com/punarjagransamiti/"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <!-- <li>
+                              <a href="https://www.kooapp.com/profile/PUNARJAGRAN_SAMITI"><img src="./images/icons/koo-icon.png"  alt="" height="20px" width="20px"></a>
+                            </li> -->
+          
+                            <li>
+                              <a href="https://twitter.com/PunarjagranS"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/channel/UCGJ651tYj6_bl9fF06cEHRA"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+          
+                            <li>
+                              <a href=" https://www.kooapp.com/profile/PUNARJAGRAN_SAMITI">  <img src="./images/icons/koo-app-custom.svg" alt="" style="background: none;
+                              width: 20px; height: 20px;"></a>
+                            </li>
+                          </ul>
+          
+                    
+                          </div>
+                        </div>
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <div id="galleryImg">
+
+            <img src="/images/slider/inner-banner-img-01 (1).jpg" alt="">
+
+            <div id="galleryContainer">
+
+
+                <h1 id="heading">हमारे बारे में</h1>
+                <p id="quote"> हमारे संगठन और हमारी मान्यताओं का एक संक्षिप्त परिचय.</p>
+
+
+            </div>
+
+        </div>
+
+
+        <section id="about-section">
+            <div id="about-container">
+
+                <p>
+                    पुनर्जागरण समिति, आर.के. पुरम, नई दिल्ली, एक गैर-लाभकारी सरकारी संगठन है
+                    2014 में श्री बाबूलाल सिंह द्वारा स्थापित किया गया था, जो वर्तमान में इस एनजीओ का नेतृत्व भी कर रहे हैं। यह है
+                    मुख्य रूप से बच्चों की शिक्षा, महिलाओं के सशक्तिकरण के क्षेत्र में प्रतिबद्ध
+                    संस्थागत समर्थन की जरूरतों को पूरा करने और संबद्ध लोगों की भलाई के लिए काम करता है
+                    सदस्य. इसका उद्देश्य बच्चों और महिलाओं को सफलतापूर्वक आजीविका प्रदान करके उन्हें सशक्त बनाना है
+                    कौशल, ज्ञान और सूचना तक पहुंच। मुख्य रूप से, एनजीओ दक्षिण दिल्ली क्षेत्र में काम करता है
+                    अब उनके साथ 50 शिक्षा केंद्र काम कर रहे हैं।
+                </p>
+
+                <br>
+
+                <p>
+                    सोसायटी पंजीकरण अधिनियम 1860 के तहत पंजीकृत पुनर्जागरण समिति एक गैर-लाभकारी, ग्रामीण है
+                    भारत में विकास एवं स्वैच्छिक संगठन जिसका मिशन गरीबी उन्मूलन है,
+                    बेरोजगारी, खराब स्वास्थ्य और अशिक्षा। महिला पुनर जागरण समिति स्वच्छता पर विशेष ध्यान देती है
+                    सशक्तिकरण और पर्यावरण, यह एक स्वदेशी गैर सरकारी संगठन है जो दिल्ली में स्थित है।
+                </p>
+
+                <br>
+
+                <p>
+                    पुनर्जागरण समिति एक उभरता हुआ गैर सरकारी संगठन है, जिसका गठन अक्टूबर, 2014 में 9 सामाजिक सदस्यों के समूह द्वारा किया गया था
+                    कार्यकर्ता और ऊर्जावान समूह से बना है। एनजीओ की स्थापना का विचार यहीं से जन्मा
+                    जब संबद्ध सदस्यों में से एक ने वंचित लोगों को जीविकोपार्जन के लिए संघर्ष करते देखा और
+                    वे अपने परिवार को दिन में दो वक्त का खाना भी नहीं खिला पाते थे। उन्होंने सुविधासंपन्न वृद्धजनों को भी देखा
+                    सड़कों के किनारे रह रहे हैं क्योंकि उनके सिर पर छत नहीं थी जो कि विशेषाधिकार थे
+                    अपने ही बच्चों द्वारा अस्वीकार कर दिया गया।
+                </p>
+
+                <div id="centreImg">
+                    <img src="/images/Gallery/6.jpeg" alt="">
+                    <small>चित्र 1 पुनर् जागरण समिति महामारी के दौरान जरूरतमंदों की मदद कर रही है</small>
+                </div>
+
+
+                <p>
+                    शुरुआत में, मैं सोच रहा था कि महामारी और लॉकडाउन ने वहां के लोगों को कैसे प्रभावित किया है
+                    स्तर। मैं इस बात से अचंभित था कि इसका उन पर क्या प्रभाव पड़ा है जिसके कारण उन्हें बेघर जीवन जीना पड़ा
+                    पर्याप्त भोजन और फिर बिना शिक्षा के भी। चूंकि मैं एनजीओ के व्हाट्सएप ग्रुप का हिस्सा था, इसलिए मैं
+                    महामारी के समय पुनर जागरण समिति में की गई कुछ गतिविधियाँ देखीं
+                    लॉकडाउन, जो वंचित बच्चों के उत्थान के लिए काम करता है, उन्होंने उन्हें बुनियादी शिक्षा सिखाई,
+                    वंचित वरिष्ठ नागरिकों को मुफ्त भोजन उपलब्ध कराया और उनकी मदद करने के लिए महिलाओं को सशक्त बनाया
+                    स्वतंत्र हो जाओ और जीविकोपार्जन करो।
+                </p>
+
+                <p>वे हर छोटी-छोटी चीज़ सीखकर कुछ भी सीखने के लिए उत्सुक थे जो उनकी मदद कर सकती थी
+                    बेहतर भविष्य सुरक्षित करें. वहां मौजूद बच्चे संख्याओं के बारे में जानने के लिए बहुत उत्साहित थे।
+                    बुनियादी विज्ञान और कंप्यूटर। मैं कई चीज़ों के बारे में अनभिज्ञ था और उन्हें अपने में ही मानता था
+                    जीवन, लेकिन अब मैं अपने जीवन की अधिक सराहना कर सकता हूं और जरूरतमंदों की मदद करने का प्रयास कर सकता हूं।
+                </p>
+
+
+                <h3>एनजीओ का मिशन-पुनर्जागरण समिति</h3>
+                <p>पुनर्जागरण समिति भारत में एक गैर-लाभकारी, ग्रामीण विकास और स्वैच्छिक संगठन है
+                    मिशन गरीबी और संयुक्त राष्ट्र-रोजगार को खत्म करना है। पुनर्जागरण समिति सामाजिक रूप से काम कर रही है,
+                    सांस्कृतिक रूप से, आर्थिक रूप से कमजोर, अनाथ और दिव्यांग जन।इनकी कार्यशैली साझेदारी और है
+                    लक्षित समूहों के साथ विचारों और सूचनाओं का पारस्परिक आदान-प्रदान।</p>
+
+                <h3>एनजीओ का विज़न-पुनर्जागरण समिति</h3>
+                <p>
+                    पुनर्जागरण समिति भारत में एक गैर-लाभकारी संगठन है जिसका उद्देश्य लोगों की मदद करना है
+                    आर्थिक रूप से कमजोर वर्ग, आर्थिक रूप से कमजोर वर्ग, कौशल के लिए मुफ्त शिक्षा प्रदान करें
+                    बच्चों और महिलाओं का विकास, ग्रामीण विकास, स्वास्थ्य और स्वच्छता, पर्यावरण
+                    जागरूकता, महिला सशक्तिकरण और कई अन्य कार्य क्षेत्र।
+                </p>
+                
+                <h3 > एनजीओ के मूल मूल्य - पुनर्जागरण समिति</h3>
+            
+<br>
+<div id="coreValues-container">
+                <ol >
+                    <li>
+                        वंचित महिलाओं को शिक्षित करने और उन्हें जिम्मेदार नागरिक बनाने के अवसर पैदा करें
+                        देश और समाज को मजबूत करें.
+                    </li>
+
+                    <li>
+                        वे महिलाओं और उनसे जुड़े जरूरतमंद लोगों को आत्मनिर्भर और सशक्त बनाना चाहते हैं
+                        रहने की स्थिति और मानक।
+                    </li>
+
+                    <li>
+                        सहयोगियों और सदस्यों को शामिल करना, समर्थन करना और मजबूत करना जो विकास में भी मदद करता है
+                        वह संस्कृति जिसमें सदस्यों को संगठन के प्रति अपनेपन और स्वामित्व की भावना होती है।
+                    </li>
+
+                    <li>
+                        यह पूर्ण और स्वतंत्र अभिव्यक्ति के लिए व्हाट्सएप ग्रुप के रूप में एक मंच भी प्रदान करता है
+                        विचार और राय जो पूर्ण भागीदारी को सुविधाजनक बनाने में भी मदद करते हैं और सामूहिकता सुनिश्चित करते हैं
+                        निर्णय लेना। इससे सभी को अपने से वरिष्ठ लोगों से जुड़ने में भी मदद मिलती है
+                        निर्देशों और सामाजिक जवाबदेही में पारदर्शिता भी सुनिश्चित करता है।
+                    </li>
+
+                    <li>
+                        बच्चों और महिलाओं के सामने आने वाली चुनौतियों की पहचान करना और उचित कार्रवाई करना।
+                    </li>
+
+                    <li>
+                        समाज के लोगों की आजीविका में सुधार एवं उत्थान के लिए कार्य करें
+                    </li>
+
+                    <li>
+                        गरीबी उन्मूलन और समाज के लोगों को सुखी और समृद्ध जीवन जीने के समान अवसर उपलब्ध कराना।
+                    </li>
+                </ol>
+            </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+      <section class="footer-bottom">
+        <div class="container" id="footerContainer">
+       
+          <p>
+            <a href="https://github.com/Prajjwaldabas">  प्रज्जवल द्वारा विकसित विशेष वेबसाइट</a>
+            <!-- <a href="#">Punarjagran Samiti</a> -->
+          </p>
+       
+
+      </div>
+      </section>
+        <!-- Scroll Top  -->
+        <button class="scroll-top tran3s color2_bg">
+          <span class="fa fa-angle-up"></span>
+        </button>
+        <!-- preloader  -->
+  
+        <div class="preloader"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <script src="js/jquery.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/menu.js"></script>
+          <script src="js/owl.carousel.min.js"></script>
+          <script src="js/jquery.mixitup.min.js"></script>
+          <script src="js/jquery.fancybox.pack.js"></script>
+          <script src="js/imagezoom.js"></script>
+          <script src="js/jquery.magnific-popup.min.js"></script>
+          <script src="js/jquery.polyglot.language.switcher.js"></script>
+          <script src="js/SmoothScroll.js"></script>
+          <script src="js/jquery.appear.js"></script>
+          <script src="js/jquery.countTo.js"></script>
+          <script src="js/validation.js"></script>
+          <script src="js/wow.js"></script>
+          <script src="js/jquery.fitvids.js"></script>
+          <script src="js/nouislider.js"></script>
+          <!-- revolution slider js -->
+    
+          <script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
+          <script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
+          <script src="js/rev-slider/revolution.extension.actions.min.js"></script>
+          <script src="js/rev-slider/revolution.extension.carousel.min.js"></script>
+          <script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>
+          <script src="js/rev-slider/revolution.extension.layeranimation.min.js"></script>
+          <script src="js/rev-slider/revolution.extension.migration.min.js"></script>
+          <script src="js/rev-slider/revolution.extension.navigation.min.js"></script>
+          <script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
+          <script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
+          <script src="js/rev-slider/revolution.extension.video.min.js"></script>
+          <script src="js/custom.js"></script>
+          <script src="js/Home_hi.js"></script>
+</body>
+
+</html>
