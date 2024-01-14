@@ -79,7 +79,7 @@ flex-direction: column;
     width: 300px;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 2200px) {
 
 
   .parent-container {
